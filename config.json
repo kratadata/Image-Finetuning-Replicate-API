@@ -1,0 +1,7 @@
+{
+    "replicate_api_token": "API key",
+    "dataset_path": "dataset/",
+    "trigger_word": "trigger_word",
+    "output_destination": "model name on Replicate"
+
+  }

@@ -1,0 +1,6 @@
+ostris/
+dataset/*
+logs/*
+
+!dataset/.gitkeep
+!logs/.gitkeep
