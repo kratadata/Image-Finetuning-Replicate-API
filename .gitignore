@@ -1,6 +1,8 @@
+__pycache__/
 ostris/
 dataset/*
 logs/*
+*.zip
 
 !dataset/.gitkeep
 !logs/.gitkeep

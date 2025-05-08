@@ -21,7 +21,7 @@ api_token = config["replicate_api_token"]
 os.environ["REPLICATE_API_TOKEN"] = api_token
 
 def dataset_to_replicate(dataset_path):
-    zip_filename = f"{os.path.basename(dataset_path)}.zip"
+    zip_filename = f"training_dataset.zip"
     with ZipFile(zip_filename, 'w') as zip_object:
         for folder_path, _, filenames in os.walk(dataset_path):
             for filename in filenames:

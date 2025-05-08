@@ -1,7 +1,6 @@
 {
-    "replicate_api_token": "API key",
+    "replicate_api_token": "your_api_token",
     "dataset_path": "dataset/",
-    "trigger_word": "trigger_word",
-    "output_destination": "model name on Replicate"
-
+    "trigger_word": "your_trigger_word",
+    "output_destination": "kratadata/your_model_name"
   }

@@ -7,6 +7,8 @@ from pprint import pprint
 
 def print_training(training):
     """Print detailed information about the training object"""
+    print("Training Model:", training.model)
+    print("Training Model Version:", training.version)
     print("Training ID:", training.id)
     print("Training Status:", training.status)
     print("Training URL:", training.urls.get("get"))
@@ -24,15 +26,20 @@ def log_training(training, log_file_path):
     # Initialize log data
     log_data = {
         "id": training.id,
+        "model": training.model,
+        "version": training.version,
         "created_at": None,
         "status_history": [],
         "completed_at": None
+
     }
     
     # Save created_at timestamp once
     log_data["created_at"] = training.created_at
     
     print(f"Logging training information to {log_file_path}")
+    print("Training Model:", training.model)
+    print("Training Version:", training.version)
     print(f"Training ID: {training.id}")
     print(f"Created at: {training.created_at}")
     
