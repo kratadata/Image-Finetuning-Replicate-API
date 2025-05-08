@@ -7,7 +7,7 @@ A tool for fine-tuning image models using Replicate's API.
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/kratadata/ostris-image-fine-tuning.git
+git clone https://github.com/kratadata/Image-Finetuning-Replicate-API
 ```
 
 2. Open the folder in your IDE and open the terminal in the folder.
